@@ -5,23 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="fetsh">
-    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
     <title>
       fetsh
     </title>
@@ -114,6 +98,51 @@
         background-repeat: no-repeat;
         background-position: center;
       }
+
+      /*
+        Flaticon icon font: Flaticon
+        Creation date: 31/10/2016 11:48
+      */
+      @font-face {
+        font-family: "Flaticon";
+        src: url("./fonts/Flaticon.eot");
+        src: url("./fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+             url("./fonts/Flaticon.woff") format("woff"),
+             url("./fonts/Flaticon.ttf") format("truetype"),
+             url("./fonts/Flaticon.svg#Flaticon") format("svg");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @media screen and (-webkit-min-device-pixel-ratio:0) {
+        @font-face {
+          font-family: "Flaticon";
+          src: url("./fonts/Flaticon.svg#Flaticon") format("svg");
+        }
+      }
+
+      [class^="flaticon-"], [class*=" flaticon-"] {
+        margin-left: -23px;
+      }
+      [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
+      [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
+        font-family: Flaticon;
+        font-size: inherit;
+        font-style: normal;
+        margin-right: 7px;
+        color: gainsboro;
+      }
+
+      .flaticon-facebook-logo:before { content: "\f100"; }
+      .flaticon-facebook-placeholder-for-locate-places-on-maps:before { content: "\f101"; }
+      .flaticon-github-sign:before { content: "\f102"; }
+      .flaticon-instagram-logo:before { content: "\f103"; }
+      .flaticon-message-closed-envelope:before { content: "\f104"; }
+      .flaticon-pinterest-sign:before { content: "\f105"; }
+      .flaticon-telegram:before { content: "\f106"; }
+      .flaticon-tumblr-logo:before { content: "\f107"; }
+      .flaticon-twitter-logo:before { content: "\f108"; }
+      .flaticon-video-play-button:before { content: "\f109"; }
     </style>
 
   </head>
@@ -123,17 +152,17 @@
       <h1>Ilia <em>“fetsh”</em> Zemskov</h1>
       <links>
         <ul>
-          <li class="co"><a href="mailto:fetshme@gmail.com">fetshme@gmail.com</a></li>
-          <li class="co"><a href="https://telegram.me/fetshme" target="_blank">telegram.me/fetshme</a></li>
-          <li class="co"><a href="https://foursquare.com/fetshme">Россия, Москва - Королёв</a></li>
+          <li class="co"><i class="flaticon-message-closed-envelope"></i><a href="mailto:fetshme@gmail.com">fetshme@gmail.com</a></li>
+          <li class="co"><i class="flaticon-telegram"></i><a href="https://telegram.me/fetshme" target="_blank">telegram.me/fetshme</a></li>
+          <li class="co"><i class="flaticon-facebook-placeholder-for-locate-places-on-maps"></i><a href="https://foursquare.com/fetshme">Россия, Москва - Королёв</a></li>
         </ul>
         <ul>
-          <li><a href="https://www.facebook.com/fetshme">facebook.com/fetshme</a></li>
-          <li><a href="http://instagram.com/fetshme">instagram.com/fetshme</a></li>
-          <li><a href="http://github.com/fetsh">github.com/fetsh</a></li>
+          <li><i class="flaticon-facebook-logo"></i><a href="https://www.facebook.com/fetshme">facebook.com/fetshme</a></li>
+          <li><i class="flaticon-instagram-logo"></i><a href="http://instagram.com/fetshme">instagram.com/fetshme</a></li>
+          <li><i class="flaticon-github-sign"></i><a href="http://github.com/fetsh">github.com/fetsh</a></li>
         </ul>
         <ul>
-          <li><a href="https://pinterest.com/ilzoff/">pinterest/ilzoff</a></li>
+          <li><i class="flaticon-pinterest-sign"></i><a href="https://pinterest.com/ilzoff/">pinterest/ilzoff</a></li>
           <li><a href="https://myshows.me/fetsh">myshows.me/fetsh</a></li>
           <li style="display: none;"><a href="/">freefeed/mokum</a></li>
         </ul>
